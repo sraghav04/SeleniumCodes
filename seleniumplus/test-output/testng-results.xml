@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31971" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:42 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="21672" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:31 IST">
+      <class name="seleniumplus.Test5">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@30b8a058]" name="beforeTest" is-config="true" duration-ms="9799" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.116.242.142:9999/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@30b8a058]" name="testLoginUsers" duration-ms="5643" started-at="2019-10-23T12:15:20 IST" data-provider="dp1" finished-at="2019-10-23T12:15:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@30b8a058]" name="testLoginUsers" duration-ms="2805" started-at="2019-10-23T12:15:25 IST" data-provider="dp1" finished-at="2019-10-23T12:15:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@30b8a058]" name="testLoginUsers" duration-ms="2866" started-at="2019-10-23T12:15:28 IST" data-provider="dp1" finished-at="2019-10-23T12:15:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumplus.Test5@30b8a058]" name="afterTest" is-config="true" duration-ms="487" started-at="2019-10-23T12:15:31 IST" finished-at="2019-10-23T12:15:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumplus.Test5 -->
+    </test> <!-- Test1 -->
+    <test name="Test4" duration-ms="22419" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:32 IST">
+      <class name="seleniumplus.Test5">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@2833cc44]" name="beforeTest" is-config="true" duration-ms="11294" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.116.242.145:5454/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@2833cc44]" name="testLoginUsers" duration-ms="4529" started-at="2019-10-23T12:15:21 IST" data-provider="dp1" finished-at="2019-10-23T12:15:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@2833cc44]" name="testLoginUsers" duration-ms="3021" started-at="2019-10-23T12:15:26 IST" data-provider="dp1" finished-at="2019-10-23T12:15:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@2833cc44]" name="testLoginUsers" duration-ms="3252" started-at="2019-10-23T12:15:29 IST" data-provider="dp1" finished-at="2019-10-23T12:15:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumplus.Test5@2833cc44]" name="afterTest" is-config="true" duration-ms="257" started-at="2019-10-23T12:15:32 IST" finished-at="2019-10-23T12:15:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumplus.Test5 -->
+    </test> <!-- Test4 -->
+    <test name="Test2" duration-ms="31971" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:42 IST">
+      <class name="seleniumplus.Test5">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@5f282abb]" name="beforeTest" is-config="true" duration-ms="14060" started-at="2019-10-23T12:15:10 IST" finished-at="2019-10-23T12:15:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ http://10.116.242.136:5566/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@5f282abb]" name="testLoginUsers" duration-ms="10631" started-at="2019-10-23T12:15:24 IST" data-provider="dp1" finished-at="2019-10-23T12:15:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@5f282abb]" name="testLoginUsers" duration-ms="3645" started-at="2019-10-23T12:15:35 IST" data-provider="dp1" finished-at="2019-10-23T12:15:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="testLoginUsers(java.lang.String, java.lang.String)[pri:0, instance:seleniumplus.Test5@5f282abb]" name="testLoginUsers" duration-ms="3337" started-at="2019-10-23T12:15:38 IST" data-provider="dp1" finished-at="2019-10-23T12:15:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[askmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumplus.Test5@5f282abb]" name="afterTest" is-config="true" duration-ms="224" started-at="2019-10-23T12:15:42 IST" finished-at="2019-10-23T12:15:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumplus.Test5 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

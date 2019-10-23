@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<parameter name="node" value="http://10.116.242.142:9999/wd/hub"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="node" value=" http://10.116.242.136:5566/wd/hub"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="node" value="http://10.116.242.135:2118/wd/hub"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test>
+	<test name="Test4">
+		<parameter name="node" value="http://10.116.242.145:5454/wd/hub"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
